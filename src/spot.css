@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section
+{
+    background-color: white;
+    height: 80vh;
+    width: 100%;
+}
+article{
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+.flexor{
+    display: flex;
+}
+.flexol{
+    border-bottom: 1px solid grey;
+}
+
+label{
+    font-weight: bold;
+}
+#email1,#password,#text1{
+    height: 3rem;
+    width: 30rem;
+    border:1px solid grey;
+    border-radius: 3px;
+}
+#email1,#password,#text1:focus{
+    border-color: black;
+}
+input::placeholder{
+    color: grey;
+
+}
+
